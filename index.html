@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>HTML Forms</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <main>
+      <form action="#" method="post">
+        <div class="container">
+            <div class="item">
+                <label for="name">Name:</label>
+                <input
+                id="name"
+                type="text"
+                name="name"
+                />
+            </div>
+            <div class="item">
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" required />
+            </div>
+            <div class="item">
+                <label for="form-message">Your message:</label>
+                <textarea
+                id="form-message"
+                name="message"
+                autofocus="on"
+                required
+                maxlength="400"
+                ></textarea>
+
+            </div>
+            <div class="item">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
